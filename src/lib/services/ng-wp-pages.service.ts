@@ -40,7 +40,7 @@ export class NgWpPagesService {
     requestOptions?: object
   ): Observable<any> {
     return this.backendService.get(
-      `${NgWpRoute.POSTS}/${id}`,
+      `${NgWpRoute.PAGES}/${id}`,
       args,
       requestOptions
     );
